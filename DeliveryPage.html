@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <title>
+Delivery Page
+    </title>
+    <head>
+<style>
+    body{
+        background-color: rgb(222, 222, 222);
+    }
+    div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: left; 
+  align-items: center; 
+  background-color: var(--secondary-color);
+  flex-grow: 1;
+  margin-left: 60px;
+}
+
+.Title{
+    font-size: 35px;
+}
+
+.Pick-up{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 100px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(237, 235, 235);
+    border-style: hidden;
+    display: block;
+}   
+
+.Destination{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 100px;
+    margin-left: 4px;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(237, 235, 235);
+    border-style: hidden;
+    display: block;
+}
+
+.contact{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 100px;
+    margin-left: 4px;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(237, 235, 235);
+    border-style: hidden;
+    display: block;
+}
+
+.fullname{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 100px;
+    margin-left: 4px;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(237, 235, 235);
+    border-style: hidden;
+    display: block;
+}
+
+.Request{
+font-size: 15px;
+margin-top: 40px;
+margin-right: 6px;
+padding-bottom: 8px;
+padding-top: 8px;
+padding-right: 10px;
+padding-left: 10px;
+background-color: rgb(17, 17, 17);
+color: rgb(255, 252, 252);
+border-radius: 2px;
+cursor: pointer;    
+}
+
+.Request:hover:active{
+    background-color: rgb(41, 41, 41);
+}
+
+.Schedule{
+font-size: 15px;
+padding-bottom: 8px;
+padding-top: 8px;
+padding-right: 10px;
+padding-left: 10px;
+font-weight: bold;
+border-radius: 2px;
+border-style: hidden;
+cursor: pointer;
+}
+
+.Schedule:hover:active{
+    background-color: rgb(209, 209, 209);
+}
+#logo{
+    display: block;
+    border-radius: 360px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+}                  
+#line{
+height: 2px;
+border: none;
+background-color: black;
+}
+#title{
+    background-color: rgb(171, 97, 97);
+    color: rgb(240, 229, 216);
+    font-size: 40px;
+    display:inline;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+</style>
+    </head>
+
+    <body>
+        <div id="bg-image"></div>
+        <header>
+            <div>
+                <img id="logo" src="Pictures/SSABP-Logo.jpg" height="200px" width="200px">
+                    <h1 id="title">
+                        Saludo's Street Foods And Beef Pares
+                    </h1>
+                </div>
+        </header>
+        <hr id="line">
+
+        <p class= "Title"> 
+            REQUEST AN ORDER NOW!!
+        </P>
+<input class="fullname" type="text" placeholder=" Enter Your Fullname">
+<br>
+<input class="contact" type="text" placeholder=" Enter Your Contact Number">
+<br>      
+<input class="Pick-up" type="text" placeholder=" Enter Pickup Location">
+<br>
+<input class="Destination" type="text" placeholder=" Enter Destination">
+
+
+
+<button class="Request" >
+Request Now
+</button>
+
+<button class="Schedule">
+Schedule For Later
+</button>
+
+    </body>
+
+</html>

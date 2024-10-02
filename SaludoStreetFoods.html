@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saludo's Street Foods And Beef Pares</title>
+    <link rel="website icon" type="png" href="Pictures/SSABP-Logo.jpg">
+    <style>
+        body {
+            background-color:rgb(235, 224, 206)
+        }
+        *{
+            box-sizing: border-box;
+        }
+#title{
+    background-color: rgb(171, 97, 97);
+    color: rgb(240, 229, 216);  
+    font-size: 40px;
+    display:inline;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#logo{
+    align-content:normal;
+    display: inline;
+    border-radius: 360px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+}
+hr{
+height: 4px;
+border-style: solid;
+border-color: black;
+background-color: rgb(208, 207, 207);
+color: rgb(232, 232, 227);
+}
+#black-line{
+height: 4px;
+border:2px;
+background-color: black;
+}
+#Fishball{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#Squidball{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#Kwek-kwek{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#Chickenskin{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#plainrice-pares{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#javarice-pares{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+#contact-details{
+    color: blueviolet;
+}
+
+#logo-title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: left; 
+  align-items: center; 
+  background-color: var(--secondary-color);
+  flex-grow: 1;
+  margin-left: 60px;
+}
+#description{
+    font-size: 30px;  
+    text-align: center;
+    color: rgb(65, 65, 65); 
+}
+#prank-link{
+    font-size: 30px;
+}   
+#list1{
+background-image: url(Pictures/Streetfoods.webp);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 5px;
+}
+
+#list1-description{
+    opacity: 0.90;
+    color: aliceblue;
+
+}
+#list2{
+ background-image: url(Pictures/ParesPic.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 5px;
+}
+#list2-description{
+opacity: 0.90;
+color: aliceblue;
+}
+#fl1-description{
+    display: block;
+    background-color:rgb(103, 100, 95);
+    color: whitesmoke;
+    border-color: rgb(88, 88, 88);
+    border-style: solid;
+    border-radius: 4px;
+}
+#fl2-description{
+    display: block;
+    background-color:rgb(103, 100, 95);
+    color: whitesmoke;
+    margin: 0px;
+    border-color: rgb(88, 88, 88);
+    border-style: solid;
+    border-radius: 4px;
+}
+#fishball-pic{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+#squidball-pic{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;   
+}
+#kwekkwek-pic{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    margin-bottom: 1px;
+}
+#chickenskin-pic{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+#Pares-Picture1{
+    height: 250px;
+    border-color: brown;
+    border-style: solid; 
+    border-radius: 15px; 
+    margin-left:35px;  
+}
+#Pares-Picture2{
+    height: 250px;
+    border-color: brown;
+    border-style: solid; 
+    border-radius: 15px;   
+}
+#food-name{
+    font-size: 35px;
+    background-color: rgb(76, 76, 76);
+    display: inline;
+    border-radius: 6px; 
+}
+#food-description{
+    font-size: 25px;
+    background-color: rgb(112, 106, 97);
+    display: inline;
+    border-radius: 4px;
+}
+#food-price{
+    display: inline;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 75px; 
+    color: whitesmoke; 
+    background-color: rgb(24, 23, 23);
+    border-radius: 5px;
+}
+#Buy-now{
+    color: rgb(47, 31, 31);
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 7px;
+    padding-right: 9px;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#Buy-now:hover{
+    color:rgb(249, 243, 243);
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+    transition: color 1s, background-color 1s;
+    
+    
+}
+
+#Buy-now:hover:active{
+    background-color: rgb(170, 167, 167);
+}
+
+#Pre-order{
+    color: rgb(47, 31, 31);
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 7px;
+    padding-right: 9px;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#Pre-order:hover{
+    color:rgb(249, 243, 243);
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+    transition: color 1s, background-color 1s;
+    
+}
+
+#Pre-order:hover:active{
+    background-color: rgb(170, 167, 167);
+}
+#Buy{
+    text-decoration: none;
+}
+#p-order{
+    text-decoration: none;
+}
+  </style>
+</head>
+<body>
+    <header>
+        <div id="logo-title">
+            <img id="logo" src="Pictures/SSABP-Logo.jpg" height="200px" width="200px">
+                <h1 id="title">
+                    SALUDO'S STREET FOODS AND BEEF PARES
+                </h1>
+        </div>
+    </header>
+    <div>
+        <hr>
+        <p id="description">
+           <b> HELLO! WELCOME TO SALUDO'S STREET FOODS AND BEEF PARES!
+            <br>
+            HERE WE SHOWCASE THE FILIPINO CULTURAL FOODS WITH PURE AUTHENTICITY 
+            <br>
+            IN PAIR WITH OUR VERY DELICIOUS FOOD DELICACY THE BEEF PARES!
+            <br>
+            BUY AND NOW AND HAVE A TASTE!
+            <br> 
+            Feel free to order here or visit our <a href="https://web.facebook.com/SSFABP" target="_blank">Facebook Page.</a></b>
+        </p>
+    </div>    
+    <div id="1st-foodlist">
+        <h2 id="fl1-description">   
+         <strong> HERE ARE THE LIST OF SOME POPULAR FILIPINO STREET FOODS WE OFFER: </strong>
+        </h2>
+    </div>
+    <div id="list1">
+        <div id="list1-description">
+        <ul>
+            <li><h2 id="food-name"> Fish Ball</h2><br><img id="fishball-pic" src="Pictures/FishBall.jpg" height="200px" width="200px"></li>
+            <br>
+            <h2 id="food-description">Filipino Fish Ball: A beloved street food delicacy in the Philippines. <br> Crispy on the outside, tender on the inside, these flavorful fish balls are a must-try for a delicious snacking experience.</h2>
+            <br>
+            <h1 id="food-price">₱50.00</h1>
+            <br>
+            <button id="Buy-now">
+                <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+              </button>
+        
+        
+              <button id="Pre-order">
+                <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+              </button>
+            <br><hr>
+            <li><h2 id="food-name">Squid Ball</h2><br><img id="squidball-pic" src="Pictures/Squidballs.jpg" height="200px" width="200px"></li>
+            <br>
+            <h2 id="food-description">Filipino Squid Ball: A delectable twist on the classic street food. <br> Made from fresh squid, these savory balls are crispy, flavorful, and perfect for satisfying your seafood cravings on-the-go.</h2>
+            <br>
+            <h1 id="food-price">₱50.00</h1>
+            <br>
+            <button id="Buy-now">
+                <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+              </button>
+        
+        
+              <button id="Pre-order">
+                <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+              </button>
+            <br><hr>
+            <li><h2 id="food-name">Kwek-Kwek</h2><br><img id="kwekkwek-pic" src="Pictures/Kwek-kwek.jpg" height="200px" width="200px"></li>
+            <br>
+            <h2 id="food-description">Filipino Kwek-Kwek: One of the popular street food here in the Philippines. 
+            <br>Kwek Kwek or Orange eggs are boiled quailed eggs coated with an orange batter and deep-fried until the batter is crispy.
+            <br>A popular Filipino snack favorite.  
+           </h2>
+           <br>
+            <h1 id="food-price">₱50.00</h1>
+            <br>
+            <button id="Buy-now">
+                <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+              </button>
+        
+        
+              <button id="Pre-order">
+                <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+              </button>
+            <br><hr>
+            <li><h2 id="food-name">Chicken Skin</h2><br><img id="chickenskin-pic" src="Pictures/ChickenSkin.jpg" height="200px" width="200px"></li>
+            <br>
+            <h2 id="food-description">Filipino Chicken Skin: A crispy and indulgent street food treat.<br> Deep-fried to golden perfection, these savory chicken skin strips are bursting with flavor, making them a popular and satisfying snack choice.</h2>
+            <br>
+            <h1 id="food-price">₱50.00</h1>
+            <br>
+            <button id="Buy-now">
+                <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+              </button>
+        
+        
+              <button id="Pre-order">
+                <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+              </button>
+        </ul>
+    </div>
+    </div>
+    <br>
+<div>
+    <h2 id="fl2-description">
+        <strong>HERE ARE SOME BEEF PARES COMBO MEALS WE OFFER:</strong>
+    </h2>
+</div>
+<div id="list2">
+    <div id="list2-description">
+    <ul>
+        <li><h2 id="food-name">Beef Pares With Plain/White Rice</h2><br><img id="Pares-Picture1" src="Pictures/ParesWithPlainRice.jpg"> </li>
+        <br>
+        <h2 id="food-description">Filipino Beef Pares With Plain Rice: A comforting and flavorful dish served with tender beef simmered in a sweet and savory sauce, <br> paired with steamed plain rice for a satisfying and hearty meal experience.</h2>
+        <br>
+        <h1 id="food-price">₱50.00</h1>
+        <br>
+        <button id="Buy-now">
+            <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+          </button>
+          <button id="Pre-order">
+            <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+          </button>
+        <br><hr>
+        <li><h2 id="food-name">Beef Pares With Java/Yellow Rice</h2><br><img id="Pares-Picture2" src="Pictures/ParesWithJavaRice.jpg"></li>
+        <br>
+        <h2 id="food-description">Filipino Beef Pares with Java Rice: A delicious fusion of flavors. Succulent beef in a rich sauce, served with fragrant java rice infused <br> with garlic and spices, creating a delectable and satisfying dining experience.</h2>
+        <br>
+        <h1 id="food-price">₱50.00</h1>
+        <br>
+        <button id="Buy-now">
+            <a id="Buy" href= "DeliveryPage.html"> BUY NOW </a>
+          </button>
+    
+    
+          <button id="Pre-order">
+            <a id="p-order" href= "DeliveryPage.html"> PRE-ORDER </a>
+          </button>
+        </ul> 
+    </div>
+</div>
+<hr id="black-line">
+<div>
+    <h2>
+    <b> <u>Contact Us:</u></b>
+    </h2>
+<h4><b id="contact-details">
+    Phone No#: 09672257848/09972986644 
+    <br>
+    Email: saludostreetfoodsbeefpares@gmail.com 
+</b></h4>
+</div>
+
+<div>
+    <br>
+    <a id="prank-link" href="JustForPranks.html"><h6>Click here for free surprises!</h6></a>
+    </body>
+    </html>
+</div>
